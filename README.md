@@ -1,36 +1,32 @@
-# 🌐 Generalized Market Maker (GMM)
+# Generalized Market Maker (GMM)
 
 **GMM** is an interdisciplinary project through which computer scientists and economists join forces to design and build a truly global decentralized exchange (DEX) for cryptographic tokens.
 
 Unlike traditional constant-product market makers (e.g., Uniswap V2), GMM introduces a new pricing mechanism that leverages **all available reserves blockchain-wide** to compute token prices. This results in:
 
-- 📉 More stable prices  
-- 🛡️ Stronger protection against price manipulation  
-- 💸 Lower operational costs
+- More stable prices  
+- Stronger protection against price manipulation  
+- Lower operational costs
 
 ---
 
-## 📖 Key Formula
+## Key Formula
 
 The core of GMM’s design is based on the following pricing expression:
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/your-image-upload-link.png" alt="GMM Formula" width="320"/>
+  <img src="./assets/gmm_formula.png" alt="GMM Formula" width="320"/>
 </p>
-
-\[
-\min\left\{ \frac{y}{x + \Delta x},\ \frac{y_i}{x_i + \Delta x} \right\} \cdot \Delta x
-\]
 
 This formula generalizes the price determination process by incorporating liquidity information beyond the immediate pair, enabling more robust pricing dynamics.
 
 ---
 
-## 🧠 Architecture
+## Architecture
 
 GMM is built on top of the **Uniswap V2** architecture, reusing its core contracts and extending them where necessary to implement the generalized pricing logic.
 
-### 🔧 GMM-Specific Additions
+### GMM-Specific Additions
 
 To enable the GMM formula, the following key modifications were introduced:
 
@@ -45,9 +41,9 @@ These enhancements allow each pair to be aware of and interact with other pools,
 
 ---
 
-## 📚 Resources
+## Resources
 
-- 📄 [Read the whitepaper on arXiv](https://arxiv.org/abs/2503.09765)
-- 🌐 [Visit the GMM homepage](https://gmm.uc3m.es/)
+- [Read the whitepaper on arXiv](https://arxiv.org/abs/2503.09765)
+- [Visit the GMM homepage](https://gmm.uc3m.es/)
 
 
