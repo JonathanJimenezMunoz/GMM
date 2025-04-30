@@ -1,4 +1,4 @@
-# Global Market Maker (GMM)
+# A Global Market Maker for decentralized token exchanges (GMM)
 
 **GMM** is an interdisciplinary project through which computer scientists and economists join forces to design and build a truly global decentralized exchange (DEX) for cryptographic tokens.
 
