@@ -50,6 +50,15 @@ These enhancements allow each pair to be aware of and interact with other pools,
 
 ## Acknowledgements
 
-This research is part of the project I+D+i TED2021-131844B-I00, funded by MCIN/ AEI/10.13039/501100011033 and the European Union NextGeneration EU/PRTR.
-This work was partially funded by the European Union through NGI Sargasso’s GMM project under Horizon Europe (Grant Agreement No. 101092887).
+- This research is part of the project I+D+i TED2021-131844B-I00, funded by MCIN/ AEI/10.13039/501100011033 and the European Union NextGeneration EU/PRTR.
+- This work was partially funded by the European Union through NGI Sargasso’s GMM project under Horizon Europe (Grant Agreement No. 101092887).
+- The theoretical foundations of the GMM (Generalized Market Maker) algorithm are developed in the paper *Generalized Market Making: A Global Liquidity Approach*.
+- This implementation was developed by **Jonathan Jiménez Muñoz** under the supervision of **Marcelo Bagnulo**, with the support of **Ángel Hernando-Veciana** and **Efthymios Smirniotis**.
+
+---
+
+## License
+
+This project is licensed under the  
+[Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
